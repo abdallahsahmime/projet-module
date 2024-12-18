@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Game Store</h1>
+        <ul class="navbar">
+            <li style="color: gold;"><a href="index.html"> <h3>Home</h3> </a></li>
+            <li style="color: gold;"><a href="cart.html"> <h3>Payout</h3> </a></li>
+            <li style="color: gold;"><a href="games.html"> <h3>Games</h3> </a></li>
+            <li style="color: gold;"><a href="login.html"> <h3>Login</h3> </a></li>
+            <li style="color: gold;"><a href="contactus.html"> <h3>contact Us</h3> </a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="contact-form">
+            
+
+            <form id="contactForm">
+                <h2>Contact Us</h2>
+                <p>Feel free to reach out with any feedback, complaints, suggestions, or bug reports.</p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="feedback">Feedback</option>
+                    <option value="complaint">Complaint</option>
+                    <option value="suggestion">Suggestion</option>
+                    <option value="bug">Bug Report</option>
+                </select>
+
+                <br><label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Type your message here..." rows="5" required></textarea>
+
+                <button type="button" id="send-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h1>Contact Us:</h1>
+        <ol>
+            <li><a href="https://www.facebook.com/medamine.sdiri.908" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/med__amine__sdiri/" target="_blank">Instagram</a></li>
+        </ol>
+
+       
+        </footer>
+
+    <script src="js/contactus.js"></script>
+</body>
+</html>
